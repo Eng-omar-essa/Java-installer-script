@@ -12,8 +12,8 @@ Available options are:
       Removes (purges) OpenJDK from the system. Using this option
       ensures that OpenJDK is not present in the system, therefore
       no application will use it instead of Oracle JDK.
-      Use this option with caution, as APT may remove other packages
-      through dependencies. Before APT start removing OpenJDK from
+      Use this option with caution, as yum may remove other packages
+      through dependencies. Before yum start removing OpenJDK from
       the system it will ask for your confirmation and display
       a complete list of software it is going to remove along with
       OpenJDK.
