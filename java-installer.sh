@@ -142,6 +142,8 @@ export JRE_HOME
 export PATH
 EOF
 echo "OK"
+source /etc/profile
+echo "profile Reloaded"
 
 # Update system to use Oracle Java by default
 echo -n "Updating system alternatives... "
